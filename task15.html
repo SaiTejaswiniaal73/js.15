@@ -16,7 +16,7 @@
 <script>
     let div1 = document.createElement("div");
     let logo=document.createElement("img");
-    let college_name=document.createElement("h5")
+    let college_name=document.createElement("h3")
     let college_grade1=document.createElement("h6")
     let college_grade2=document.createElement("h6")
     let card_type=document.createElement("h5")
@@ -41,7 +41,7 @@
     function college_idcard(){
 
         div1.style.width = "300px";
-        div1.style.height = "450px";
+        div1.style.height = "430px";
         div1.style.margin = "auto";
         div1.style.borderRadius = "20px";
         div1.style.boxShadow="2px 2px 10px white"
@@ -63,22 +63,22 @@
 
         //2ND LINE COLLEGE NAME
         college_name.innerHTML = "St Martin's Engineering College";
-        college_name.style.marginLeft = "16px";
         college_name.style.marginTop = "-9px";
         college_name.style.color = "blue";
         college_name.style.fontWeight = "bold"; 
+        college_name.style.textAlign = "center"
         div1.append(college_name);
 
         //3rd line colle afffilated-1
         college_grade1.innerHTML="AFFILIATED TO JNTUH, APPROVED BY AICTE,"
-        college_grade1.style.marginLeft="32px"
         college_grade1.style.marginTop="-18px"
         college_grade1.style.fontSize="x-small"
+        college_grade1.style.textAlign = "center"
         div1.append(college_grade1)
 
         //4th line colle afffilated-2
         college_grade2.innerHTML="Accrld by NBA & NAAC A+ ISO 9001 2008 CERTIFIED"
-        college_grade2.style.marginLeft="22px"
+        college_grade2.style.textAlign = "center"
         college_grade2.style.marginTop="-23px"
         college_grade2.style.fontSize="x-small"
         div1.append(college_grade2)
@@ -99,7 +99,7 @@
         )
         college_grade3.style.height="140px"
         college_grade3.style.width="100px"
-        college_grade3.style.marginLeft="172px"
+        college_grade3.style.marginLeft="170px"
         college_grade3.style.marginTop="-15px"
         div1.append(college_grade3)
 
@@ -110,7 +110,7 @@
         )
         student_pic.style.height="157px"
         student_pic.style.width="130px"
-        student_pic.style.marginLeft="12px"
+        student_pic.style.marginLeft="10px"
         student_pic.style.marginTop="-270px"
         student_pic.style.border="1px solid black"
 
@@ -118,13 +118,13 @@
 
         //grade near logo-2
         college_grade4.innerHTML="UGC Autonomous"
-        college_grade4.style.marginLeft="182px"
+        college_grade4.style.marginLeft="180px"
         college_grade4.style.marginTop="-30px"
         college_grade4.style.fontSize="x-small"
         div1.append(college_grade4)
          //grade near logo-2
         college_grade5.innerHTML="(Govt. of India)"
-        college_grade5.style.marginLeft="187px"
+        college_grade5.style.marginLeft="185px"
         college_grade5.style.marginTop="-25px"
         college_grade5.style.fontSize="x-small"
         div1.append(college_grade5)
